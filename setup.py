@@ -4,11 +4,11 @@ import os
 
 setuptools.setup(
 
-	name="DEploid_Pv_pipeline",
+	name="pv3rs_wrapper",
 
 	version="0.0.1",
-	packages=["DEploid_Pv"],
-	license="DEploid",
-	long_description="DEploid wrapper command line tool",
+	packages=["pv3rs_wrapper"],
+	license="Pv3Rs",
+	long_description="Pv3Rs wrapper command line tool",
 	scripts= ["scripts/%s" % x for x in os.listdir("scripts")],
 )
